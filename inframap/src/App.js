@@ -4,7 +4,7 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <title>Inframap</title>
+
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
@@ -23,4 +23,8 @@ function App() {
   );
 }
 
-export default App;
+export default function App(){
+  return(
+    <div>goon</div>
+  )
+}
