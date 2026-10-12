@@ -1,23 +1,11 @@
-import logo from './logo.svg';
-import './App.css';
-
-function App() {
+export default function MyApp() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <center>
+    <div>
+      <h1>Inframap</h1>
+      <p>Real-time Infrastructure Complaint Website</p>
+      <image src="data:image/webp;base64,UklGRmIKAABXRUJQVlA4IFYKAACwLQCdASqmAGsAP1lc1msyI7IyGSJAKwlnZJCWf59IKn2ODxfd4UtXGLY2L9J7Ce/X9/3ie3x2S/wGbYEi5Ln5+xjno+/H/Eb8IZqfxJYWIVA/6fAv+O6n33SM6JLKvM4kbNODjTIZFNSePf+zlllZs9HOcF4eXQQ6kS2JlOnGIsynJ69wEZaZ6Hg//m5njziLqcGqtmEeQ1PMZ5dk/xBHwcN4j6MBK1phods0c8jxThZ6Phl66uww9gppBjAhvzNKUlgOm++Gcj2o5V0/S5WHKxoQxxyIepggF/yACNKBvxr4Cu0cdWqp904tTD5eULkrFysB6nDDPuIzsXeEM4ivJIsr5brZdtlHQD/3RA0MTqMMtvO/DOc6kShkJ4EfNftYV2di98K0fvHyLYxCOlkVhDFHDS+hQdmUXFWFc1WIX2cWUI4cjdtl1IkTElQLVYfruvHLVBetjPxO62hUR1RVLbDc9Q0WPUCxxM6f4XulLcYMqHVRgADQiXjMAcPZCVKWIGwJOdF9WlombcMwEPvUkGOQZUCa4KFFcuNfdaT0iYtT04MMTld2Apl23Tf/uJJQ1Iw7o2CFqhhE1m77NF63yUuoJLZ1JmVHIF80qkxOM+WgPMjSiHnYnISuWenKMJbZ1jZj9hkqICYgPRlvCyB++JsFJp7SwYFU4+Adp1fFi+v809mfPKcdu4wAC16BQZukOX7n4Moj7TdGsCWjNrkUOo3RODqqyljYdbx7L/rkrKnAObmXNtz/a9+x15cKK7rl9lbs03R/FGqQ0srABddXGeQZZhpRtz0XRhCEa87932eo2M24SmoyS8R/VzCM6Ay49IpH3NC0C1fDuqSde2sKNImkYOiFICOCqjq1B2VBUpHZE5oi2iPp+MkniNcfjkajpedkHkpdxZr0vkakckF8juitPkpGPTIcnPVsKq0xel6h5SR9YBGOU8NJefc/ID/XiqOQAdBMoXQ9zl6/aGCCANgHFIN5ZO0GPJoPH14R9lElGC3j+m+aY87WBNA4bBU7yY2YLf+kJuoZdyXjcJeKGXva01AFtXHkZMxKvxQu0/HXOPFKA4GwCSAeus2U28fuOydF7K287/9SQe0QmaZThSNdc5sT+itFLVETt7aew+NOOG3FzFJ6+T47aocuAmB+aWzUWbJcdibtZIDqrYppDtMZ4cGFl5k84FLDetm69KQcr3/n1Be6yedugg8HsD8rO7Bh7+Ly27899Z+f5/UW3frG/inzZAWMuAxS15WXKMFjCAeYNhtucPWOp5FHwGyCjxY6mD7hPAVtuWvupbopMhtmwbe0pZQKQqUtW6SWigY1Ssyj7cWZtLQILOetFK3d5jzl+g941/bxXr2kAiZvduvU0FNkBnQXtY9rypfiBwIbFPjvJFe5v9Ss9DG9zkUdCUUkmFXOAj4UCtahMyFMJkAsLIervwzP/4a7KAMdR61VcyiJf8YPXz1H3koUNNyknjeVa/9RnCIZtEuGWP9RIj0nL499H0baIpvYB0vd19QKVUHwFHCX2Ha6VWhFFZ71BxiMxyNwVYSbU8vMeogDYzjZMZzlVGQAN5/Hmw4hvoSb//PY6XRY58LOb/eGA4YtF+xxZvU0qTcP17wXwpOSLvRHbqYy4zdxS3zP0QFNwruXpPZm+4ssmkLfbsZjiXtez4bWPcqAx4oXyqKtsQ6ndcFfoirsIQuJqUM+jqWqmsiQGQY4pNZO2KogROspq7z2ohASfjLqOJrh5TYyKGFngCQNviXQPaLYz7iK6JF35OUyjpIZJt5z2jDgoxnGmo2teogtZ+Ml0b6YLEYFoF0ZdRZ7HClLs6FmrgbhhTm6FE3fw/w5KizyXveIPk8tB2WX8VjHSHV9pA0rhEhN2+IINR7aXSt5B9ywvNB1P7QJfEqJM9oD9uKcceP22XG9NCPaxeDwwJA4ik6WNEPFZIlXhb4xPuH5gBxZmUNGbChe8YcvAUYQ/AhZ5Ijv0GjjLVf3Bkr7hZnLpoEyTqbUkRyK3t8xY05JFijBLlD6AibMWtVbwDsndYtXVTrm2Pt2qaPejzFJypHvVi+fn21JER2aaXKsbrfZQob0PwaiUHT92uZ9vupLYI2DMvX5FUHUUSEGreCxa89T6VAeo0JVsnREr8VWN1jdRBoFhmuF8wIzuMN/sGU2OTgnrF39JwQSXQLmvTVsPZhxDkMyvnBjDktenxxpLtoXKrqB6PfgyUADgEfHYLso9js9CPBSAfepyICGfr1xLGoTx4UkhnJi0ZfBeqW3/mxeiRxFIfOJCF6IR8E0jozLmCxNt9crDSgYL3NR7yrqAx6e869fJFp3NZ3s5+smhPtRqp2TNNuZ5qfAu+p1MIlP4xMS9nc206nUetAhj96VxZkkuTqrJZZdlKLFWCnsDAl/N0mbjvr9Om420dtxchm9wkSZCht7ykwbW2QOrlsYTGBBjEzoLD2gAdWtaI7B7it+r9uITcUpBBqRmFryWxbFl50FtTk7aJZh2/dJeUf6TIt3Y0uDOf9RH7T8dfSDZQYohpkAs/jbl6Y/pIlejQlmaAUvXfHs/kXWQadmL7Y+ywCFTJFI0zStbufRx7jVUMSaAVwxUA1j56c7UYT4mKmfa3UndDUD0yDiXoGmF+lsQAXqQsQ/a9husMLj8B05+8i7ZIS2FBs4huy22MfR0JxaiJcbQa2YbpkEV7BRMD8ng/ZQZPGr/fKNXUi6HwbxLKeEr6d7u9IYMD+R5vo4mqdylQe+eeJK8LSd2HEg94OFkbWW6Y/nHISev+QDoZjOhzThhFPV4Tu2uORhUtq6/KNaqQQTOGPfxZFg4eG0P55y1laPgcI0VpFecgKLRvrIGIhOS1FYn+pCU83bpypw+xh/kLx+mKPe5dUScyThKuzYOiStmHdku86ZkE7xSBrRjsxMMGT8/88CWEqCgiza2pw7urJwBanWjbOhrHertBVSV+anmf3iYZt79M8sCDt2NgMlAudc07FptMnWlVMAYmzKa8a646SgobW0RwwqApQPDuHB24ZHV+r7mR8OKYYyJEJBOnHOVYBOsFjGXPOUXwb2WV6mUZoVKcqBsEnGbzvfT9aBj8AsIaMVVXjLc87ldmgvvQFKzlnYVMbZsal9G+s7IsijAiGZWKKRDtEDi3SCMO3l60ip2RdaU3Sbgo8swnLg6f1pESh8ZTcgJ10msNxCNTHXhkzteoeDOCjKDeM/27gPqWU+CSms7zU51Li93kdPAJYDhWMyh+Gu/Tlisd3Xx+3+PzLONun2uq1QevIzGaLpoqpX5dzfkjdCsgrvgnPTDqYY5hcz3ysyZ9bnGvSpbft5CI/g3uFB+1rpLTxmyzQDMplcaZFR5v02WjBwlb+cvtXeoFg13lkioVdE58vXfppPuekzrOukpYihRzMDMI7wl5stPOI9H/wepEeQVPlB1Y3407WjylwrVEnaAT0qUJn1TBm611d0djri0bDwYU7ZPJDm2/mv7v+jw1SorWyAfhke4A5D4Xwy1xRtwS/VxKLjZubOnlH6YAmQcIQAAAA="></image>
     </div>
+    </center>
   );
 }
